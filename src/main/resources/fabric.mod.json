@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "blockesp-radar",
+  "version": "${version}",
+  "name": "BlockESP Radar",
+  "description": "Adds a BlockESP Radar.",
+  "authors": [
+    "iMac_James"
+  ],
+  "contact": {
+    "repo": ""
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.jamesa08.blockespradar.BlockESPRadarAddon"
+    ]
+  },
+  "mixins": [],
+  "custom": {
+    "meteor-client:color": "255,169,10"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["1.20.5","${mc_version}"],
+    "meteor-client": "*"
+  }
+}
